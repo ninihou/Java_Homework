@@ -35,12 +35,20 @@ public class Practice1 {
 			//複利的計算公式是：S = P(1 + i)n次方，其中以符號I代表利息，P代表本金，n代表期數，i代表利率，S代表本利和。
 			int n = 10;
 			double p = 1500000.0;
-			double i = 0.02;
+			double i1 = (1+0.02);
+			double J = Math.pow(i1, n);
 			double s;
-			
-			for(int k = 0; k < n; k++) {
-				
-			}
+			s = p*J;
+//			for(int k = 0; k < n; k++) {
+//				
+//			}
+//			Math.pow(底数,几次方)
+//		    如：int a=3;
+//		          int b=3;
+//		          int c=Math.pow(a,b);
+//		          就是3的三次方是多少；
+//
+//		          c最终为27；
 			
 			
 			System.out.println("共" + s + "元");
